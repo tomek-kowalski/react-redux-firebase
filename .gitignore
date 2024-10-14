@@ -1,0 +1,47 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Build output directories
+dist/
+dist-ssr/
+
+# Local environment files
+*.local
+.env
+.env.*
+
+# Redux Toolkit and Redux-related (optional, based on usage)
+redux-logger.log    # If you're using redux-logger and it creates a log file
+redux-devtools/     # Exclude if you configure Redux DevTools to store state logs (optional)
+redux-cache/        # Exclude if you implement a caching mechanism for Redux state
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Test coverage
+coverage/
+
+# Cache directories and files
+.cache/
+.eslintcache
+
+# Redux Toolkit-related (if applicable)
+reduxState.json     # If you serialize and save Redux state for persistence, like to localStorage
+reduxPersist/       # If using redux-persist and store persist data on disk
